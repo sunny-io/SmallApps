@@ -1,0 +1,79 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.outer_calculator{
+    background: steelblue;
+    width: 232px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.keys{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background: radial-gradient( rgba(228, 227, 227, 0.9), rgba(192, 192, 192, 0.9));
+    flex-wrap: wrap;
+    padding: 10px;
+   justify-content: center;
+   border-radius: 0 0 10px 10px;
+   flex-shrink: 0;
+   opacity: 0.95;
+    
+    
+
+}
+
+.keys button{
+    width: 40px;
+    height:40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin: 2px;
+    background: radial-gradient(#b9b7b7,#a3a2a2);
+    
+}
+
+#calc, #clear {
+    flex-grow: 2;
+    border-radius:6px;
+    max-width: 85px;
+}
+
+.display{
+    box-sizing: border-box;
+    padding-left: 22px;
+    margin-left:-1px;
+    width: 216px;
+	height: 31px;
+	margin-top: 10px;
+	border-radius: 10px 10px 0 0;
+	
+    flex-shrink: 0;
+    background-color:#dadade ;
+}
+
+#calculator {
+	width: 100%;
+	height: 30px;
+    border:none;
+    background-color: none;
+    border-radius: 10px 10px 0 0;
+	
+
+    flex-shrink: 0;
+    
+}
+#calculator:disabled{
+    border-radius: 10px 10px 0 0;
