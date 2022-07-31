@@ -1,0 +1,116 @@
+        #myquiz {
+            background-color: beige;
+            width: 100%;
+            box-sizing: border-box;
+
+        }
+
+        #myquiz h1,
+        #myquiz h2 {
+            color: mediumblue;
+
+        }
+
+
+
+        #myquiz h3 {
+            background-color: #001771;
+            color: white;
+            padding: 6px 12px 6px 12px;
+            border-radius: 10px 10px 0 0;
+            margin: 0;
+        }
+
+        #myquiz button {
+            margin: 10px;
+            padding: 10px;
+
+            font-weight: 600;
+
+        }
+
+        #myQuiz button.primary {
+            background-color: #001771;
+            color: white;
+            border-radius: 5px;
+        }
+
+        div.tquestion {
+            border-radius: 10px;
+
+            width: 45%;
+            width: 45%;
+            border: blue solid 1px;
+            background-color: whitesmoke;
+            padding: 0 0 10px 0;
+            margin-bottom: 16px;
+        }
+
+        div.iquestion {
+            border: blue solid 1px;
+            background-color: whitesmoke;
+            padding: 0 0 10px 0;
+            margin-bottom: 16px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        #myquiz ul {
+            list-style-type: none;
+        }
+
+
+
+        .iquestion ul {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .iquestion li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+
+        }
+
+        #yourResult {
+            width: 100%;
+            max-height: 200px;
+
+            font-size: larger;
+            font-weight: 600;
+            color: blue;
+            position: absolte;
+            border-radius: 10px;
+
+            text-align: center;
+            vertical-align: middle;
+            padding: 20px;
+
+        }
+
+        .correct::after {
+            content: " Richtig :-)";
+            background-color: green;
+            color: whitesmoke;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+
+        div.correct {
+            border: solid 5px green;
+        }
+
+        div.wrong {
+            border: solid 2px red;
+        }
+
+        .wrong::after {
+            content: " Falsch :-(";
+            background-color: red;
+            color: whitesmoke;
+            padding: 5px;
+            border-radius: 10px;
+        }
