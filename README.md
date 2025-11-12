@@ -5,4 +5,7 @@ Mostly JavaScript Single-Purpose Apps
 
 - Javascript Quiz Template: flex-based layout for quiz, javascript to evaluate results, anyone who can read javascript can cheat
 	fixed bug with reset function
+	
+-- Portfolio Template
+HTML Template for portfolio page with expandable elements based on semantic html using bootstrap for CSS
  
